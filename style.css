@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+body {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.page1 {
+  background-image: url("images/bg1.jpg");
+}
+
+.page2 {
+  background-image: url("images/bg2.jpg");
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hotpink;
+  text-align: center;
+  background: rgba(255,255,255,0.4);
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  background: pink;
+  cursor: pointer;
+}
+button:hover {
+  background: hotpink;
+  color: white;
+}
+
+/* Popup card */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #ffe6eb;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+}
